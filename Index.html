@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/src/css/base.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#113a35">
+    <title>Project O</title>
+</head>
+
+<body>
+    <main id="app">
+
+        <!-- Default Mode -->
+        <section id="default-mode" class="mode" aria-label="Default mode">
+
+            <header class="mode-navigation">
+                <button
+                    id="journal-nav"
+                    class="mode-nav-button"
+                    type="button"
+                    aria-label="Journaling"
+                >
+                    ✏️
+                </button>
+
+                <button
+                    id="research-nav"
+                    class="mode-nav-button"
+                    type="button"
+                    aria-label="Research"
+                >
+                    💿
+                </button>
+            </header>
+
+            <div id="environment" class="environment">
+                <!-- Future pixel animation -->
+            </div>
+
+            <div id="mindfulness-text" class="mindfulness-text">
+                <!-- Future mindfulness/environmental text -->
+            </div>
+
+        </section>
+
+
+        <!-- Journaling Mode -->
+        <section
+            id="journal-mode"
+            class="mode"
+            aria-label="Journaling mode"
+            hidden
+        >
+
+            <header class="mode-navigation">
+                <button
+                    id="journal-settings"
+                    class="settings-button"
+                    type="button"
+                    aria-label="Journaling settings"
+                >
+                    ⚙️
+                </button>
+
+                <button
+                    id="journal-to-default"
+                    class="mode-nav-button"
+                    type="button"
+                    aria-label="Return to default mode"
+                >
+                    💿
+                </button>
+            </header>
+
+            <div id="journal-content" class="mode-content">
+                <!-- Future journaling interface -->
+            </div>
+
+        </section>
+
+
+        <!-- Research Mode -->
+        <section
+            id="research-mode"
+            class="mode"
+            aria-label="Research mode"
+            hidden
+        >
+
+            <header class="mode-navigation">
+                <button
+                    id="research-to-default"
+                    class="mode-nav-button"
+                    type="button"
+                    aria-label="Return to default mode"
+                >
+                    ✏️
+                </button>
+
+                <button
+                    id="research-settings"
+                    class="settings-button"
+                    type="button"
+                    aria-label="Research settings"
+                >
+                    ⚙️
+                </button>
+            </header>
+
+            <div id="research-content" class="mode-content">
+                <!-- Future research interface -->
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
